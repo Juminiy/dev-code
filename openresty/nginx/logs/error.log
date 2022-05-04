@@ -1,0 +1,40 @@
+2022/05/03 09:20:06 [notice] 14708#0: signal process started
+2022/05/03 09:20:19 [error] 14709#0: *3 open() "/home/ubuntu/code/openresty/nginx/html/error" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /error HTTP/1.1", host: "127.0.0.1:8080"
+2022/05/03 09:23:52 [emerg] 14959#0: open() "/home/ubuntu/code/openresty/nginx/conf/mime.types" failed (2: No such file or directory) in /home/ubuntu/code/openresty/nginx/conf/nginx.conf:7
+2022/05/03 09:24:14 [notice] 15099#0: signal process started
+2022/05/03 09:33:56 [notice] 15586#0: signal process started
+2022/05/03 09:34:42 [notice] 15705#0: signal process started
+2022/05/04 01:03:57 [notice] 28828#0: signal process started
+2022/05/04 01:39:44 [notice] 33068#0: signal process started
+2022/05/04 01:46:18 [notice] 33325#0: signal process started
+2022/05/04 02:12:04 [emerg] 34216#0: unexpected "}" in /home/ubuntu/code/openresty/nginx/conf/nginx.conf:46
+2022/05/04 02:12:12 [notice] 34245#0: signal process started
+2022/05/04 02:12:31 [error] 34246#0: *15 lua entry thread aborted: runtime error: /home/ubuntu/code/openresty/nginx/lua/get_value.lua:1: module 'redis_con' not found:
+	no field package.preload['redis_con']
+	no file '/usr/local/openresty/site/lualib/redis_con.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis_con/init.ljbc'
+	no file '/usr/local/openresty/lualib/redis_con.ljbc'
+	no file '/usr/local/openresty/lualib/redis_con/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis_con.lua'
+	no file '/usr/local/openresty/site/lualib/redis_con/init.lua'
+	no file '/usr/local/openresty/lualib/redis_con.lua'
+	no file '/usr/local/openresty/lualib/redis_con/init.lua'
+	no file './redis_con.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redis_con.lua'
+	no file '/usr/local/share/lua/5.1/redis_con.lua'
+	no file '/usr/local/share/lua/5.1/redis_con/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis_con.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis_con/init.lua'
+	no file '/usr/local/openresty/site/lualib/redis_con.so'
+	no file '/usr/local/openresty/lualib/redis_con.so'
+	no file './redis_con.so'
+	no file '/usr/local/lib/lua/5.1/redis_con.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redis_con.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/ubuntu/code/openresty/nginx/lua/get_value.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get-value HTTP/1.1", host: "localhost:8080"
+2022/05/04 02:12:31 [error] 34246#0: *15 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get-value HTTP/1.1", host: "localhost:8080"
+2022/05/04 02:15:34 [notice] 34496#0: signal process started
+2022/05/04 04:49:40 [notice] 39859#0: signal process started
