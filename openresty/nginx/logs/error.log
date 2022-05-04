@@ -38,3 +38,77 @@ coroutine 0:
 2022/05/04 02:12:31 [error] 34246#0: *15 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get-value HTTP/1.1", host: "localhost:8080"
 2022/05/04 02:15:34 [notice] 34496#0: signal process started
 2022/05/04 04:49:40 [notice] 39859#0: signal process started
+2022/05/04 05:31:47 [notice] 44916#0: signal process started
+2022/05/04 05:32:08 [error] 44917#0: *404210 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:32:08 [error] 44917#0: *404210 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:32:57 [notice] 45084#0: signal process started
+2022/05/04 05:33:00 [error] 45085#0: *404212 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:33:00 [error] 45085#0: *404212 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:34:09 [error] 45085#0: *404214 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:34:09 [error] 45085#0: *404214 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:34:57 [error] 45085#0: *404216 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:34:57 [error] 45085#0: *404216 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:36:09 [error] 45085#0: *404218 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:36:09 [error] 45085#0: *404218 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:43:21 [notice] 45942#0: signal process started
+2022/05/04 05:43:36 [error] 45943#0: *404220 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:43:36 [error] 45943#0: *404220 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+
+2022/05/04 05:44:05 [error] 45943#0: *404222 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:918: auth plugin caching_sha2_password or sha256_password are not supported because resty.rsa is not installed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/usr/local/openresty/lualib/resty/mysql.lua:884: in function '_encrypt_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:918: in function '_write_encode_password'
+	/usr/local/openresty/lualib/resty/mysql.lua:1061: in function '_handle_auth_result'
+	/usr/local/openresty/lualib/resty/mysql.lua:1201: in function 'connect'
+	/home/ubuntu/code/openresty/nginx/lua/mysql_cmd.lua:16: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
+2022/05/04 05:44:05 [error] 45943#0: *404222 open() "/home/ubuntu/code/openresty/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /mysql-cmd HTTP/1.1", host: "localhost:8080"
